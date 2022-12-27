@@ -1,0 +1,45 @@
+/* This must be the first line of the custom.css with other import rules */
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+
+.dark-theme,
+html[data-theme=dark] {
+  --ct-primary-color: #429180 ;
+  --ct-secondary-color: #6096ba;
+  --ct-warning-color: #ff7262;
+  --ct-success-color: #139460;
+  --ct-highlight-color: #ddd668;
+  --color-level-1: #313942;
+  --color-level-2: #38434c;
+  --color-level-3: #404b55;
+  --color-level-4: #525f6b;
+  --color-level-5: #606e7a;
+  --color-level-6: #697885;
+  --ls-primary-background-color: #323d43;
+  --ls-secondary-background-color: var(--color-level-1);
+  --ls-tertiary-background-color: var(--color-level-2);
+  --ls-quaternary-background-color: var(--color-level-3);
+  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
+  --ls-primary-text-color: #d8caac;
+  --ls-secondary-text-color: #c7c7c7;
+  --ct-bold-color: #d8caac;
+  --ct-bold-color-transparent: rgba(255, 255, 255, 0.3);
+  --ls-link-text-color: #d39bb6;
+  --ls-link-ref-text-color: #d39bb6;
+  --ls-link-ref-text-hover-color: #af698b;
+  --ls-active-primary-color: var(--ct-primary-color);
+  --ls-active-secondary-color: #83b6af;
+  --ls-external-link-color: var(--ct-secondary-color);
+  --ct-bullet-closed-color: #555;
+  --ct-block-arrow-color: rgb(165, 165, 165);
+  --ct-page-reference-color: var(--ls-active-primary-color);
+  --ls-icon-color: var(--ls-primary-text-color);
+  --ct-block-reference-background: rgba(16, 107, 163, 0.2);
+  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
+  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
+  --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
+  --ct-kbd-bg-color: #0d1117;
+  --ct-kbd-border-color: #6e7681;
+  /* Will be used if backdrop-filter not supported */
+  --ct-header-bg-color: #272c35ee;
+  --ls-selection-color: #000;
+}
